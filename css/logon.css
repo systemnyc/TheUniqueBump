@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  color: #211f22;
+}
+nav {
+  border-bottom: none;
+  padding: 1%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav > a {
+  background-color: #fbff00;
+  color: #343a40;
+  padding: 0.35em;
+  text-decoration: none;
+}
+a {
+  margin: 0.03em;
+  padding: 5%;
+}
+a:hover {
+  background-color: rgb(90, 245, 0);
+  color: black;
+}
+.form_login {
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 20%;
+  font-family: cursive, sans-serif;
+  font-weight: bold;
+  font-size: 30%;
+  color: white;
+  border-radius: 25%;
+  overflow: hidden;
+  margin: auto;
+  padding: 15%;
+  background-image: url("/image/istockphoto-1313259435-612x612.jpg"),
+    linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+  background-size: cover;
+  animation: fadein 6s;
+}
+
+.login_area {
+  color: #090924;
+  padding-top: auto;
+}
+
+#btnSubmit {
+  height: 50%;
+  width: 50%;
+  justify-content: right;
+}
+
+.register {
+  box-shadow: 5px 5px 50px #012e0b;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 8px 8px 10px #0000008c;
+  width: 11%;
+  height: 12%;
+  border-radius: 10%;
+  overflow: hidden;
+  margin: auto;
+  padding: 5%;
+  animation: fadein 6s;
+  background-image: url("/image/istockphoto-165742533-1024x1024.jpg");
+  background-color: #343a40;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label {
+  font-family: cursive, sans-serif;
+  font-weight: bold;
+  font-size: 10%;
+  color: white;
+  color: rgb(6, 22, 2);
+  font-size: 18px;
+}
+
+button {
+  border-radius: 15px;
+  border: 1px solid #ffea2b;
+  background-color: #249900;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+#forgotten {
+  padding: 0%;
+  font-size: 20px;
+  color: #2c0146;
+  display: none;
+}
+
+#lnkForgot {
+  text-decoration: none;
+  color: #2c00238c;
+}
+#lnkForgot:visited {
+  color: #090924;
+}
+#lnkForgot:hover {
+  background-color: wheat;
+  color: #00ccff;
+}

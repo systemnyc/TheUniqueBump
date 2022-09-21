@@ -1,0 +1,26 @@
+body {
+  background-color: hsl(54, 100%, 48%);
+  animation: bodyColor 20s;
+  animation-iteration-count: calc(1);
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* This is inside of the body tag*/
+@keyframes bodyColor {
+  0% {
+    background-color: #e6ff09;
+  }
+  50% {
+    background-color: #4244b8;
+  }
+  100% {
+    background-color: #e43f9117;
+  }
+}
