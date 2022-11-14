@@ -1,1 +1,1 @@
-# TheUniqueBump
+# TheUniqueBumpThe Unique Bump brand mission is this: Whether you're visiting just for curiosity or are interested in learning the practice of your ancestors, the Unique Bump brand provides a fun and informative information about pregnancy traditions from around the globe!
